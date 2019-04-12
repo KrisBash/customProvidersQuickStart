@@ -15,7 +15,7 @@
         "resourceTypes": [{
           "name": "myResource",
           "routingType": "proxy",
-          "endpoint": "https://customrpnode.azurewebsites.net/api/"
+          "endpoint": "https://customrpnode.azurewebsites.net/api/{resourcePath}"
       }]}                   
     },
     {
